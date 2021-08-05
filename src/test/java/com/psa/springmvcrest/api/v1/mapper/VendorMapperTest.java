@@ -5,7 +5,6 @@ import com.psa.springmvcrest.domain.Vendor;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Created by PSA at 7/3/2021
@@ -16,7 +15,7 @@ class VendorMapperTest {
 
     VendorMapper vendorMapper = VendorMapper.INSTANCE;
 
-    @org.junit.Test
+    @Test
     public void vendorToVendorDTO() throws Exception {
         //given
         Vendor vendor = new Vendor();
